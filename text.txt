@@ -1,0 +1,262 @@
+Perfect. This is exactly the right way to approach DSA at your stage:
+👉 small dose, very focused, immediately actionable.
+
+I’ll do this in 3 tight sections:
+	1.	Minimal learning material (arrays + hash maps in Python)
+	2.	Mental models you must remember (this matters more than syntax)
+	3.	Your exact task: 4 EASY problems (2 arrays + 2 hash maps) with clear instructions
+
+No overload. This should take ~2–2.5 hours total.
+
+⸻
+
+1️⃣ Minimal Learning Material (ONLY what you need)
+
+A. Arrays in Python (Lists)
+
+What an array means in interviews
+
+In LeetCode / interviews:
+	•	“Array” = Python list
+	•	Focus is on:
+	•	traversal
+	•	indexing
+	•	ordering
+	•	using extra space wisely
+
+Python basics you MUST know
+
+arr = [1, 2, 3]
+
+arr.append(4)
+arr[0]        # first element
+len(arr)
+for x in arr:
+    print(x)
+
+for i in range(len(arr)):
+    print(arr[i])
+
+Common array patterns (VERY IMPORTANT)
+	•	Scan once (O(n))
+	•	Two pointers
+	•	Build new array
+	•	Modify in place
+
+📘 Learning material (read only this page)
+👉 https://realpython.com/python-lists-tuples/
+
+You do not need tuples now. Focus on lists.
+
+⸻
+
+B. Hash Maps in Python (Dictionaries)
+
+What a hash map means
+
+Hash map = dictionary
+Used when you need:
+	•	fast lookup
+	•	counting
+	•	remembering what you’ve seen before
+
+Python basics you MUST know
+
+mp = {}
+
+mp["a"] = 1
+mp["a"] += 1
+
+if "a" in mp:
+    print(mp["a"])
+
+for key, value in mp.items():
+    print(key, value)
+
+Counting pattern (this appears everywhere)
+
+counts = {}
+for x in arr:
+    counts[x] = counts.get(x, 0) + 1
+
+📘 Learning material (read only this)
+👉 https://realpython.com/python-dicts/
+
+⸻
+
+2️⃣ Mental Models (Memorize These)
+
+This is more important than solving many problems.
+
+🧠 Array → think:
+
+“I can scan left to right”
+
+Ask yourself:
+	•	Do I need order?
+	•	Can I solve in one pass?
+	•	Can I use two pointers?
+
+⸻
+
+🧠 Hash Map → think:
+
+“I want to remember something I saw before”
+
+Ask yourself:
+	•	Do I need fast lookup?
+	•	Am I counting?
+	•	Am I checking existence?
+
+If the problem says:
+	•	“find pair”
+	•	“check duplicates”
+	•	“frequency”
+	•	“first time”
+→ Hash map immediately
+
+⸻
+
+3️⃣ Your TASK: 4 Easy Problems (Do in this order)
+
+Create a folder:
+
+dsa/
+  arrays.py
+  hashmaps.py
+
+Solve exactly these 4 problems.
+
+⸻
+
+🟦 ARRAY PROBLEM 1 (Easy)
+
+Problem: Maximum Number in Array
+
+Task
+Given a list of integers, return the maximum value.
+
+Example:
+
+nums = [3, 7, 2, 9, 4]
+# Output: 9
+
+Rules
+	•	Do NOT use max() (important)
+	•	Use a loop
+
+What this tests
+	•	Traversal
+	•	Comparison logic
+
+⸻
+
+🟦 ARRAY PROBLEM 2 (Easy)
+
+Problem: Remove Duplicates (Preserve Order)
+
+Task
+Given a list, return a new list with duplicates removed while keeping order.
+
+Example:
+
+nums = [1, 2, 2, 3, 1, 4]
+# Output: [1, 2, 3, 4]
+
+Hint
+	•	Use an extra list
+	•	Use in check
+
+What this tests
+	•	Array traversal
+	•	Order preservation
+
+⸻
+
+🟩 HASH MAP PROBLEM 1 (Easy)
+
+Problem: Frequency Count
+
+Task
+Given a list of numbers, return a dictionary of counts.
+
+Example:
+
+nums = [1, 2, 2, 3, 3, 3]
+# Output: {1: 1, 2: 2, 3: 3}
+
+Rules
+	•	Use dictionary
+	•	Use .get()
+
+What this tests
+	•	Counting pattern (VERY important)
+
+⸻
+
+🟩 HASH MAP PROBLEM 2 (Classic Easy)
+
+Problem: Two Sum (Easy version)
+
+Task
+Given a list and a target, return True if any two numbers sum to target.
+
+Example:
+
+nums = [2, 7, 11, 15]
+target = 9
+# Output: True
+
+Hint
+	•	Use a dictionary or set
+	•	Check target - current
+
+What this tests
+	•	Hash map lookup
+	•	Thinking in complements
+
+⸻
+
+⏱ Suggested Time Split
+
+Activity	Time
+Reading (arrays + dicts)	30–40 min
+Array problems (2)	40–50 min
+Hash map problems (2)	40–50 min
+Review & cleanup	15 min
+
+Total ≈ 2–2.5 hours
+
+⸻
+
+✅ Done Checklist (Important)
+
+You are DONE with this task when:
+	•	You solved all 4 without looking at solutions
+	•	You understand why hash map was used
+	•	You can explain your solution out loud
+	•	Code runs without errors
+
+⸻
+
+🚫 Very Important (Mindset)
+
+Do NOT:
+	•	Optimize prematurely
+	•	Worry about time complexity formulas
+	•	Compare yourself to competitive programmers
+
+At your level:
+
+Clarity > speed
+
+⸻
+
+Next step (after you finish)
+
+Reply with one of these:
+	•	“Solved arrays, stuck on hash maps”
+	•	“Solved all 4, please review my Two Sum logic”
+	•	“Ready for next DSA pattern”
+
+I’ll then move you to the next most useful pattern (strings or sliding window), keeping the same low-friction style.
