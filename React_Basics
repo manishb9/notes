@@ -1,57 +1,93 @@
-React Reads:
-React Basics
-- [ ] nodejs.org
-- [ ] npmjs.com
-- [ ] https://docs.npmjs.com/common-errors
-- [ ] reactjs.org
-- [ ] https://create-react-app.dev/
-- [ ] VS Code
-- [ ] Basic Concepts of Flexbox
-- [ ] Importing a Component
-- [ ] Babeljs.io
-- [ ] NPM docs: package.json
-- [ ] git docs: gitignore
-- [ ] NPM docs: node modules folder
-- [ ] webpack docs: DevServer
-- [ ] webpack/webpack-dev-server on GitHub
-- [ ] Visual Studio Code keyboard shortcuts (Windows)
-- [ ] Visual Studio Code keyboard shortcuts (macOS)
-- [ ] Components and props 
-- [ ] Intoducing JSX
-- [ ] Styling and CSS in React
-- [ ] Introducing expressions in JSX
-- [ ] Handling Events
-- [ ] Supported Events
-- [ ] SyntheticEvent
-- [ ] How do I pass an event handler (like onClick) to a component?
-- [ ] JavaScript Expressions as Props
-- [ ] JavaScript Expressions as Children
-- [ ] React docs website URL which discusses the issue in depth
-- [ ] Data flows down
-- [ ] The Power Of Not Mutating Data
-- [ ] Add Inverse Data Flow
-- [ ] Component state
-- [ ] State: A Component's Memory
-- [ ] Sharing State Between Components
-- [ ] State as a Snapshot
-- [ ] Basic useState examples
-- [ ] Synchronizing with effects - putting it all together
-- [ ] Fetch API
-- [ ] The event loop in JavaScript
-- [ ] React Router v6
-- [ ] nav: The Navigation Section element
-- [ ] Conditional (ternary) operator in JavaScript
-- [ ] if...else
-- [ ] webpack docs
-- [ ] webpack asset management
-- [ ] npm docs
-- [ ] ReactPlayer on npm
-- [ ] Video and audio content on the web
+Node.js : https://nodejs.org
 
+npm : https://www.npmjs.com
 
+NPM common errors : https://docs.npmjs.com/common-errors
 
+React official website : https://reactjs.org
 
+Create React App : https://create-react-app.dev/
 
+Visual Studio Code : https://code.visualstudio.com/
 
+Basic Concepts of Flexbox : https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox
 
+Importing a Component : https://reactjs.org/docs/components-and-props.html
 
+Babel : https://babeljs.io
+
+NPM docs: package.json : https://docs.npmjs.com/cli/v9/configuring-npm/package-json
+
+git docs: .gitignore : https://git-scm.com/docs/gitignore
+
+NPM docs: node_modules folder : https://docs.npmjs.com/cli/v9/configuring-npm/folders
+
+webpack docs: DevServer : https://webpack.js.org/configuration/dev-server/
+
+webpack-dev-server on GitHub : https://github.com/webpack/webpack-dev-server
+
+Visual Studio Code keyboard shortcuts (Windows) : https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
+
+Visual Studio Code keyboard shortcuts (macOS) : https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf
+
+Components and props : https://reactjs.org/docs/components-and-props.html
+
+Introducing JSX : https://reactjs.org/docs/introducing-jsx.html
+
+Styling and CSS in React : https://reactjs.org/docs/faq-styling.html
+
+Introducing expressions in JSX : https://reactjs.org/docs/introducing-jsx.html#embedding-expressions-in-jsx
+
+Handling Events : https://reactjs.org/docs/handling-events.html
+
+Supported Events : https://reactjs.org/docs/events.html
+
+SyntheticEvent : https://reactjs.org/docs/events.html
+
+How do I pass an event handler (like onClick) to a component? : https://reactjs.org/docs/handling-events.html
+
+JavaScript Expressions as Props : https://reactjs.org/docs/jsx-in-depth.html
+
+JavaScript Expressions as Children : https://reactjs.org/docs/jsx-in-depth.html
+
+React docs website URL which discusses the issue in depth : https://reactjs.org/docs/thinking-in-react.html
+
+Data flows down : https://reactjs.org/docs/state-and-lifecycle.html
+
+The Power Of Not Mutating Data : https://reactjs.org/docs/optimizing-performance.html#the-power-of-not-mutating-data
+
+Add Inverse Data Flow : https://reactjs.org/docs/thinking-in-react.html
+
+Component state : https://reactjs.org/docs/state-and-lifecycle.html
+
+State: A Component's Memory : https://reactjs.org/docs/state-and-lifecycle.html
+
+Sharing State Between Components : https://reactjs.org/docs/lifting-state-up.html
+
+State as a Snapshot : https://reactjs.org/docs/state-as-a-snapshot.html
+
+Basic useState examples : https://reactjs.org/docs/hooks-state.html
+
+Synchronizing with effects – putting it all together : https://reactjs.org/docs/hooks-effect.html
+
+Fetch API : https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+
+The event loop in JavaScript : https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop
+
+React Router v6 : https://reactrouter.com/en/main
+
+nav: The Navigation Section element : https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav
+
+Conditional (ternary) operator in JavaScript : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator
+
+if...else : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else
+
+webpack docs : https://webpack.js.org/concepts/
+
+webpack asset management : https://webpack.js.org/guides/asset-management/
+
+npm docs : https://docs.npmjs.com
+
+ReactPlayer on npm : https://www.npmjs.com/package/react-player
+
+Video and audio content on the web : https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Video_and_audio_content
