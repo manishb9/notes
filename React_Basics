@@ -1,0 +1,57 @@
+React Reads:
+React Basics
+- [ ] nodejs.org
+- [ ] npmjs.com
+- [ ] https://docs.npmjs.com/common-errors
+- [ ] reactjs.org
+- [ ] https://create-react-app.dev/
+- [ ] VS Code
+- [ ] Basic Concepts of Flexbox
+- [ ] Importing a Component
+- [ ] Babeljs.io
+- [ ] NPM docs: package.json
+- [ ] git docs: gitignore
+- [ ] NPM docs: node modules folder
+- [ ] webpack docs: DevServer
+- [ ] webpack/webpack-dev-server on GitHub
+- [ ] Visual Studio Code keyboard shortcuts (Windows)
+- [ ] Visual Studio Code keyboard shortcuts (macOS)
+- [ ] Components and props 
+- [ ] Intoducing JSX
+- [ ] Styling and CSS in React
+- [ ] Introducing expressions in JSX
+- [ ] Handling Events
+- [ ] Supported Events
+- [ ] SyntheticEvent
+- [ ] How do I pass an event handler (like onClick) to a component?
+- [ ] JavaScript Expressions as Props
+- [ ] JavaScript Expressions as Children
+- [ ] React docs website URL which discusses the issue in depth
+- [ ] Data flows down
+- [ ] The Power Of Not Mutating Data
+- [ ] Add Inverse Data Flow
+- [ ] Component state
+- [ ] State: A Component's Memory
+- [ ] Sharing State Between Components
+- [ ] State as a Snapshot
+- [ ] Basic useState examples
+- [ ] Synchronizing with effects - putting it all together
+- [ ] Fetch API
+- [ ] The event loop in JavaScript
+- [ ] React Router v6
+- [ ] nav: The Navigation Section element
+- [ ] Conditional (ternary) operator in JavaScript
+- [ ] if...else
+- [ ] webpack docs
+- [ ] webpack asset management
+- [ ] npm docs
+- [ ] ReactPlayer on npm
+- [ ] Video and audio content on the web
+
+
+
+
+
+
+
+
